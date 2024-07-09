@@ -5,7 +5,7 @@ import UserService from "../../service/UserService";
 class AddUser extends React.Component {
     
     constructor() {
-        super();
+        super(); 
         this.service = new UserService(); 
         this.state = {
             user: new User(),
