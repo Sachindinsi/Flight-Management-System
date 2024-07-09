@@ -6,7 +6,7 @@ class AddUser extends React.Component {
     
     constructor() {
         super();
-        this.service = new UserService();
+        this.service = new UserService(); 
         this.state = {
             user: new User(),
         };
